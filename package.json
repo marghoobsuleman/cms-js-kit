@@ -4,7 +4,6 @@
   "description": "The official JavaScript Kit for HashtagCMS, bundled with essential UI components, utility helpers, and design system styles.",
   "author": "Marghoob Suleman",
   "license": "MIT",
-  "private": true,
   "homepage": "https://hashtagcms.org",
   "repository": {
     "type": "git",
