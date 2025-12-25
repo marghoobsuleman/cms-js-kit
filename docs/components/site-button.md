@@ -13,17 +13,15 @@ import SiteButton from "@hashtagcms/components/site-button";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
-| `data-sites` | `JSON String` | List of sites. |
-| `data-current-site` | `Number` | Selected site ID. |
+| Prop                | Type          | Description       |
+| :------------------ | :------------ | :---------------- |
+| `data-sites`        | `JSON String` | List of sites.    |
+| `data-current-site` | `Number`      | Selected site ID. |
 
 ## 🛠 Usage
 
 ```html
-<site-button
-    data-sites='[...]'
-></site-button>
+<site-button data-sites="[...]"></site-button>
 ```
 
 Emits `site_changed` via EventBus when selection changes.

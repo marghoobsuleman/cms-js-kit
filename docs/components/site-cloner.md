@@ -13,14 +13,12 @@ import SiteCloner from "@hashtagcms/components/site-cloner";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
+| Prop         | Type          | Description                    |
+| :----------- | :------------ | :----------------------------- |
 | `data-sites` | `JSON String` | List of sites (Source/Target). |
 
 ## 🛠 Usage
 
 ```html
-<site-cloner
-    data-sites='[...]'
-></site-cloner>
+<site-cloner data-sites="[...]"></site-cloner>
 ```

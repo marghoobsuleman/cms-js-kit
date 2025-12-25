@@ -5,22 +5,19 @@
 </template>
 
 <script>
-
 export default {
-
   mounted() {
-   // console.log("html slot mounted");
-    for(var i in this) {
-        if(this.hasOwnProperty(i)) {
-           // console.log(i + " : "+ this[i].toString());
-        }
+    // console.log("html slot mounted");
+    for (var i in this) {
+      if (this.hasOwnProperty(i)) {
+        // console.log(i + " : "+ this[i].toString());
+      }
     }
   },
   methods: {
-    getAllInputs: function() {
-        console.log("all inputs");
-    }
-  }
-}
-
+    getAllInputs: function () {
+      console.log("all inputs");
+    },
+  },
+};
 </script>

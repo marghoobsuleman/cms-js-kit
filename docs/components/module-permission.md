@@ -13,19 +13,19 @@ import ModulePermission from "@hashtagcms/components/module-permission";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
-| `data-modules` | `JSON String` | List of all system modules. |
+| Prop                      | Type          | Description                                      |
+| :------------------------ | :------------ | :----------------------------------------------- |
+| `data-modules`            | `JSON String` | List of all system modules.                      |
 | `data-permission-modules` | `JSON String` | Existing permissions for the selected role/user. |
-| `data-user-id` | `Number` | ID of the user being edited. |
-| `data-role-id` | `Number` | ID of the role being edited. |
+| `data-user-id`            | `Number`      | ID of the user being edited.                     |
+| `data-role-id`            | `Number`      | ID of the role being edited.                     |
 
 ## 📝 Usage Example
 
 ```html
 <module-permission
-    data-modules='[{"id":1, "name":"Users"}]'
-    data-permission-modules='[{"module_id":1, "readonly":0}]'
-    data-role-id="2"
+  data-modules='[{"id":1, "name":"Users"}]'
+  data-permission-modules='[{"module_id":1, "readonly":0}]'
+  data-role-id="2"
 ></module-permission>
 ```

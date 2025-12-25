@@ -13,16 +13,16 @@ import FrontendModuleCreator from "@hashtagcms/components/frontend-module-creato
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
-| `data-module-types` | `JSON String` | Available module types. |
-| `data-method-types` | `JSON String` | HTTP methods (GET, POST). |
-| `data-controller-name` | `String` | Base URL for submission. |
+| Prop                   | Type          | Description               |
+| :--------------------- | :------------ | :------------------------ |
+| `data-module-types`    | `JSON String` | Available module types.   |
+| `data-method-types`    | `JSON String` | HTTP methods (GET, POST). |
+| `data-controller-name` | `String`      | Base URL for submission.  |
 
 ## 📝 Usage Example
 
 ```html
 <frontend-module-creator
-    data-controller-name="frontend-manager"
+  data-controller-name="frontend-manager"
 ></frontend-module-creator>
 ```

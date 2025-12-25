@@ -3,34 +3,37 @@
  */
 
 export class AdminConfig {
-    constructor() {
-        this.appConfig = (window.Laravel && window.Laravel.adminConfig) || {};
-    }
+  constructor() {
+    this.appConfig = (window.Laravel && window.Laravel.adminConfig) || {};
+  }
 
-    get(key, defaultVal) {
-        return this.appConfig[key] || defaultVal;
-    }
+  get(key, defaultVal) {
+    return this.appConfig[key] || defaultVal;
+  }
 
-    admin_path(path, params = null) {
-        let qParamStr = "";
-        if (params !== null && Object.prototype.toString.call(params) === "[object Object]") {
-            let qParam = [];
-            Object.entries(params).forEach(([key, value]) => qParam.push(key + "=" + value));
-            qParamStr = "?" + qParam.join("&");
-        }
-        return this.get("base_path") + "/" + path + qParamStr;
+  admin_path(path, params = null) {
+    let qParamStr = "";
+    if (
+      params !== null &&
+      Object.prototype.toString.call(params) === "[object Object]"
+    ) {
+      let qParam = [];
+      Object.entries(params).forEach(([key, value]) =>
+        qParam.push(key + "=" + value),
+      );
+      qParamStr = "?" + qParam.join("&");
     }
+    return this.get("base_path") + "/" + path + qParamStr;
+  }
 
-    admin_asset(path) {
-        return this.get("app_url") + "/" + this.get("theme_assets") + "/" + path;
-    }
+  admin_asset(path) {
+    return this.get("app_url") + "/" + this.get("theme_assets") + "/" + path;
+  }
 
-    get_media(path) {
-        return this.get("media_path") + "/" + path;
-    }
-};
+  get_media(path) {
+    return this.get("media_path") + "/" + path;
+  }
+}
 
 const adminConfig = new AdminConfig();
 export default adminConfig;
-
-

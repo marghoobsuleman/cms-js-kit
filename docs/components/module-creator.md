@@ -13,18 +13,18 @@ import ModuleCreator from "@hashtagcms/components/module-creator";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
+| Prop                   | Type          | Description                        |
+| :--------------------- | :------------ | :--------------------------------- |
 | `data-database-tables` | `JSON String` | List of available database tables. |
-| `data-controller-name` | `String` | Base URL for form submission. |
-| `data-back-url` | `String` | URL for the cancel button. |
+| `data-controller-name` | `String`      | Base URL for form submission.      |
+| `data-back-url`        | `String`      | URL for the cancel button.         |
 
 ## 📝 Usage Example
 
 ```html
 <module-creator
-    data-database-tables='["users", "posts", "categories"]'
-    data-controller-name="module-manager"
+  data-database-tables='["users", "posts", "categories"]'
+  data-controller-name="module-manager"
 ></module-creator>
 ```
 

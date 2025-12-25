@@ -13,7 +13,7 @@ import InfoPopup from "@hashtagcms/components/info-popup";
 
 ## 🛠 Methods
 
-*   **`showInfo(modelName, id)`**: Triggers the AJAX call to `/admin/info/{modelName}/{id}` and opens the modal with the result.
+- **`showInfo(modelName, id)`**: Triggers the AJAX call to `/admin/info/{modelName}/{id}` and opens the modal with the result.
 
 ## 🛠 Usage
 

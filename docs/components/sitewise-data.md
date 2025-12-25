@@ -13,19 +13,19 @@ import SitewiseData from "@hashtagcms/components/sitewise-data";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
-| `data-list` | `JSON String` | All available items. |
+| Prop            | Type          | Description                           |
+| :-------------- | :------------ | :------------------------------------ |
+| `data-list`     | `JSON String` | All available items.                  |
 | `data-selected` | `JSON String` | Items currently assigned to the site. |
-| `data-site-id` | `Number` | The target site ID. |
-| `data-save-url` | `String` | API endpoint to save changes. |
+| `data-site-id`  | `Number`      | The target site ID.                   |
+| `data-save-url` | `String`      | API endpoint to save changes.         |
 
 ## 🛠 Usage
 
 ```html
 <sitewise-data
-    data-list='[...]'
-    data-selected='[...]'
-    data-site-id="1"
+  data-list="[...]"
+  data-selected="[...]"
+  data-site-id="1"
 ></sitewise-data>
 ```

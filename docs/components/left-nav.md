@@ -13,17 +13,17 @@ import LeftNav from "@hashtagcms/components/left-nav";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
-| `data-list` | `JSON String` | **Required.** The hierarchical menu structure. |
-| `data-controller-name` | `String` | The current controller name (used for highlighting active menu). |
-| `data-user-rights` | `JSON String` | Array of permissions for the current user. |
+| Prop                   | Type          | Description                                                      |
+| :--------------------- | :------------ | :--------------------------------------------------------------- |
+| `data-list`            | `JSON String` | **Required.** The hierarchical menu structure.                   |
+| `data-controller-name` | `String`      | The current controller name (used for highlighting active menu). |
+| `data-user-rights`     | `JSON String` | Array of permissions for the current user.                       |
 
 ## 📝 Usage Example
 
 ```html
 <left-nav
-    data-controller-name="page"
-    data-list='[{"id":1, "name":"Dashboard", "icon_css":"fa fa-home", "link":"dashboard", "child":[]}]'
+  data-controller-name="page"
+  data-list='[{"id":1, "name":"Dashboard", "icon_css":"fa fa-home", "link":"dashboard", "child":[]}]'
 ></left-nav>
 ```

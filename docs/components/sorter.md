@@ -13,11 +13,11 @@ import Sorter from "@hashtagcms/components/sorter";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
-| `data-items` | `JSON String` | The list of items to sort. |
-| `data-url` | `String` | API endpoint to post the new order to. |
-| `data-msg` | `String` | Success message to show after saving. |
+| Prop         | Type          | Description                            |
+| :----------- | :------------ | :------------------------------------- |
+| `data-items` | `JSON String` | The list of items to sort.             |
+| `data-url`   | `String`      | API endpoint to post the new order to. |
+| `data-msg`   | `String`      | Success message to show after saving.  |
 
 ---
 
@@ -29,6 +29,7 @@ import Sorter from "@hashtagcms/components/sorter";
 A helper navigation component used to switch between related modules (e.g., settings pages).
 
 ## 🚀 Import
+
 ```javascript
 import CmsModuleDropdown from "@hashtagcms/components/cms-module-dropdown";
 ```

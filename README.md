@@ -6,11 +6,11 @@ Welcome to the official **HashtagCMS Professional** monorepo. This repository ho
 
 Everything is bundled into a single NPM package for easier consumption.
 
-| Package | Description | Version |
-| :--- | :--- | :--- |
+| Package                               | Description                                                 | Version |
+| :------------------------------------ | :---------------------------------------------------------- | :------ |
 | **[`@hashtagcms/jskit`](./packages)** | Unified Library containing Components, Helpers, and Styles. | `1.0.4` |
 
-*Note: The internals are still modular (`packages/components`, `packages/helpers`), but consumers should import from the main package.*
+_Note: The internals are still modular (`packages/components`, `packages/helpers`), but consumers should import from the main package._
 
 ## 🚀 Getting Started
 
@@ -23,14 +23,17 @@ npm install @hashtagcms/jskit
 ### Usage
 
 **Components & Helpers:**
+
 ```javascript
-import { 
-    ActionBar,          // Components
-    AdminConfig, Toast  // Helpers
+import {
+  ActionBar, // Components
+  AdminConfig,
+  Toast, // Helpers
 } from "@hashtagcms/jskit";
 ```
 
 **Styles:**
+
 ```scss
 // In your app.scss (Recommended: Use Source for overrides)
 @import "~@hashtagcms/jskit/packages/styles/src/app";
@@ -55,4 +58,5 @@ We welcome contributions! Please see our [Contribution Guide](CONTRIBUTING.md) f
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-*Built with ❤️ by [Marghoob Suleman](https://github.com/marghoobsuleman).*
+
+_Built with ❤️ by [Marghoob Suleman](https://github.com/marghoobsuleman)._

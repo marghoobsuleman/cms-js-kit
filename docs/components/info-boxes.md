@@ -13,14 +13,14 @@ import InfoBoxes from "@hashtagcms/components/info-boxes";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
+| Prop           | Type          | Description                            |
+| :------------- | :------------ | :------------------------------------- |
 | `data-modules` | `JSON String` | Array of modules to display icons for. |
 
 ## 🛠 Usage
 
 ```html
 <info-boxes
-    data-modules='[{"name":"Users", "icon_css":"fa-user", "link":"users"}, ...]'
+  data-modules='[{"name":"Users", "icon_css":"fa-user", "link":"users"}, ...]'
 ></info-boxes>
 ```

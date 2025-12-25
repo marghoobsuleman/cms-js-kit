@@ -13,7 +13,7 @@ import ImageGallery from "@hashtagcms/components/image-gallery";
 
 ## 🛠 Methods
 
-*   **`open(editorInstance)`**: Opens the modal. If `editorInstance` is provided (e.g., TinyMCE), selecting an image will insert `<img src="...">` into the editor.
+- **`open(editorInstance)`**: Opens the modal. If `editorInstance` is provided (e.g., TinyMCE), selecting an image will insert `<img src="...">` into the editor.
 
 ## 🛠 Usage
 

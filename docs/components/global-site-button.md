@@ -13,16 +13,16 @@ import GlobalSiteButton from "@hashtagcms/components/global-site-button";
 
 ## 🛠 Props
 
-| Prop | Type | Description |
-| :--- | :--- | :--- |
-| `data-sites` | `JSON String` | List of all available sites. |
-| `data-current-site` | `Number` | ID of the currently active site. |
+| Prop                | Type          | Description                      |
+| :------------------ | :------------ | :------------------------------- |
+| `data-sites`        | `JSON String` | List of all available sites.     |
+| `data-current-site` | `Number`      | ID of the currently active site. |
 
 ## 📝 Usage Example
 
 ```html
 <global-site-button
-    data-sites='[{"id":1, "name":"Site A"}]'
-    data-current-site="1"
+  data-sites='[{"id":1, "name":"Site A"}]'
+  data-current-site="1"
 ></global-site-button>
 ```
