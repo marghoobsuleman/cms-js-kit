@@ -1,9 +1,14 @@
 {
   "name": "@hashtagcms/jskit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The official JavaScript Kit for HashtagCMS, bundled with essential UI components, utility helpers, and design system styles.",
   "author": "Marghoob Suleman",
   "license": "MIT",
+  "main": "dist/hashtagcms.min.js",
+  "files": [
+    "dist",
+    "packages"
+  ],
   "homepage": "https://hashtagcms.org",
   "repository": {
     "type": "git",

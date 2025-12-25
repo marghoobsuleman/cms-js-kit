@@ -24,8 +24,7 @@ module.exports = (env, argv) => {
             filename: isProduction ? '[name].min.js' : '[name].js',
             library: {
                 name: 'HashtagCMS',
-                type: 'umd',
-                export: 'default'
+                type: 'umd'
             },
             globalObject: 'this',
             clean: true,
@@ -80,4 +79,3 @@ module.exports = (env, argv) => {
         devtool: isProduction ? false : 'source-map'
     };
 };
-
