@@ -36,13 +36,31 @@ import {
 
 ```scss
 // In your app.scss (Recommended: Use Source for overrides)
+// Your own variables for themes
+@import "./variables"; 
+
+// Bootstrap (if needed by your local overrides, otherwise package might include it or expect it)
+@import "~bootstrap/scss/bootstrap";
+
+// Import HashtagCMS JS Kit Styles (Source)
 @import "~@hashtagcms/jskit/packages/styles/src/app";
+
 
 // Or Pre-compiled CSS
 @import "~@hashtagcms/jskit/dist/hashtagcms.min.css";
 ```
 
+##  Documentation
+
+Detailed guides for every part of the library:
+
+- [**Integration Guide**](./docs/INTEGRATION_GUIDE.md): Setup and framework integration.
+- [**Components Guide**](./docs/COMPONENTS_GUIDE.md): Component API and examples.
+- [**Helpers Guide**](./docs/HELPERS_GUIDE.md): Utilities and helpers documentation.
+- [**Styles Guide**](./docs/STYLES_GUIDE.md): Customization and SCSS variables.
+
 ## 🛠️ Development
+
 
 This project uses **NPM Workspaces** to manage dependencies.
 
